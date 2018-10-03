@@ -66,7 +66,6 @@ class Game
         puts ""        
     end
 
-    private
     def place_token(cell)
         @board[cell] = @player_turn        
     end
