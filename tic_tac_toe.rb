@@ -1,4 +1,4 @@
 require './game.rb'
 
-play = Game.new("Jonna", "Knud")
-play.play
+play = Game.new("Player 1", "Player 2")
+

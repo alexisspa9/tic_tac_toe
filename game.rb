@@ -6,9 +6,10 @@ class Game
         @player1 = Player.new(player1, "x")
         @player2 = Player.new(player2, "o")
         @player_turn = pick_first_player
+        play
     end
     
-    public
+    private
     def play
         while true
             result = game_result
